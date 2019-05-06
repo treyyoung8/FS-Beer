@@ -18,12 +18,12 @@ const NavBar = () => {
                         </li>
                     </Link>
                     <Link to='/beers'>
-                        <li className='nav-item'>
+                        <li className='nav-item active'>
                             <a className='nav-link' href='#'>Beer List</a>
                         </li>
                     </Link>
                     <Link to='/beers/newbeer'>
-                        <li className='nav-item'>
+                        <li className='nav-item active'>
                             <a className='nav-link' href='#'>
                                 <span className='glyphicon glyphicon-plus'></span>
                                 Add Beer
