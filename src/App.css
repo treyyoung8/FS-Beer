@@ -39,9 +39,14 @@ body {
   color: red
 }
 
-header {
+.nav {
   background-color: rgba(163, 234, 255, 0.5);
-  text-align: center
+  text-align: center;
+  padding: 1%
+}
+
+.fsBeer {
+  font-size: 20px
 }
 
 footer {

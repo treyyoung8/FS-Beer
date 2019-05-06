@@ -2,8 +2,8 @@ import React from 'react'
 
 const AllBeersPage = (props) => {
     return (
-        <div className='allBeers'>
-            <div className='table container'>
+        <div className='allBeers container'>
+            <div className='table table-striped'>
                 <table>
                     <thead>
                         <tr>

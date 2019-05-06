@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Header from './Components/header'
+import NavBar from './Components/navbar'
 import Footer from './Components/footer'
 import HomePage from './Components/homePage'
 import AllBeersPage from './Components/allBeersPage'
@@ -99,7 +99,7 @@ class App extends Component {
       <>
         <Router>
           <div>
-            <Header />
+            <NavBar />
               <Switch>
                 <Route exact path='/' render={HomePage} />
                 <Route exact path='/beers' render={(props) => <AllBeersPage {...props} beers={this.state.beers} deleteBeer={this.deleteBeer} upLike={this.upLike} downLike={this.downLike} handleChange={this.handleChange} />} />
